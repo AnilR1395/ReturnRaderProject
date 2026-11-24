@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bpBg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="packCharcoal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="60%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="bpDrop">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="24" fill="url(#bpBg)"/>
+
+  <g transform="translate(120, 60)" filter="url(#bpDrop)">
+    <!-- Top Carry Handle -->
+    <path d="M 60 40 C 60 15 100 15 100 40" fill="none" stroke="#0F172A" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 60 40 C 60 15 100 15 100 40" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Main Backpack Body -->
+    <path d="M 30 260 C 20 220 20 80 40 50 C 60 35 100 35 120 50 C 140 80 140 220 130 260 Z" fill="url(#packCharcoal)" stroke="#475569" stroke-width="2"/>
+
+    <!-- Front Zipper Pocket -->
+    <path d="M 35 250 C 35 170 35 140 45 125 C 60 115 100 115 115 125 C 125 140 125 170 125 250 Z" fill="#0F172A" stroke="#334155" stroke-width="1.5"/>
+    
+    <!-- Heavy Duty Metal Zipper Line -->
+    <path d="M 40 130 Q 80 120 120 130" fill="none" stroke="#94A3B8" stroke-width="2.5" stroke-dasharray="3,2"/>
+    <rect x="76" y="122" width="8" height="12" rx="2" fill="#E2E8F0"/>
+
+    <!-- Lower Horizontal Zipper -->
+    <line x1="45" y1="210" x2="115" y2="210" stroke="#F59E0B" stroke-width="2"/>
+    <rect x="77" y="206" width="6" height="8" rx="1" fill="#F59E0B"/>
+
+    <!-- Side Mesh Water Bottle Pocket -->
+    <path d="M 24 160 L 22 230 C 22 240 32 245 32 245 L 32 160 Z" fill="#1E293B" stroke="#475569" stroke-width="1"/>
+    
+    <!-- Brand Rubber Tag -->
+    <rect x="60" y="170" width="40" height="16" rx="4" fill="#020617" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="80" y="181" font-family="-apple-system, sans-serif" font-size="7" font-weight="900" fill="#F59E0B" text-anchor="middle" letter-spacing="1">WILDCRAFT</text>
+
+    <!-- Padded Bottom -->
+    <ellipse cx="80" cy="260" rx="50" ry="12" fill="#020617" stroke="#334155" stroke-width="1.5"/>
+    <text x="80" y="235" font-family="monospace" font-size="7" font-weight="700" fill="#94A3B8" text-anchor="middle">35L • RAIN COVER</text>
+  </g>
+
+  <!-- Badge -->
+  <rect x="24" y="24" width="200" height="26" rx="13" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  <text x="124" y="41" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#E2E8F0" text-anchor="middle">Wildcraft 35L Laptop Backpack</text>
+</svg>

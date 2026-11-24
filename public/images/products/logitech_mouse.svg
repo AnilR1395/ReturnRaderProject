@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+    <defs>
+      <radialGradient id="lgBg" cx="50%" cy="50%" r="60%">
+        <stop offset="0%" stop-color="#1E293B"/>
+        <stop offset="100%" stop-color="#020617"/>
+      </radialGradient>
+      <filter id="lgDrop">
+        <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity="0.6"/>
+      </filter>
+    </defs>
+    <rect width="400" height="400" rx="24" fill="url(#lgBg)"/>
+    <!-- Logitech MX Master 3S Ergonomic Mouse -->
+    <g transform="translate(100, 90)" filter="url(#lgDrop)">
+      <!-- Sculpted Ergonomic Palm Rest -->
+      <path d="M 50 180 C 10 160, 20 80, 70 50 C 110 30, 160 30, 175 70 C 190 110, 170 190, 120 205 C 80 215, 60 190, 50 180 Z" fill="#27272A" stroke="#3F3F46" stroke-width="2"/>
+      <!-- Thumb Rest Wing with Textured Diamond Grip -->
+      <path d="M 50 140 C 20 135, 10 160, 15 180 C 25 195, 45 190, 55 180 Z" fill="#18181B"/>
+      <!-- MagSpeed Steel Scroll Wheel -->
+      <rect x="110" y="40" width="14" height="35" rx="4" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+      <!-- Thumb Side Scroll Wheel -->
+      <rect x="42" y="115" width="8" height="22" rx="3" fill="#94A3B8"/>
+      <!-- Click Splitter Line -->
+      <line x1="117" y1="75" x2="117" y2="120" stroke="#18181B" stroke-width="2"/>
+      <text x="120" y="155" font-family="-apple-system, sans-serif" font-size="8" font-weight="900" fill="#71717A" text-anchor="middle">logi</text>
+    </g>
+    <!-- Badge -->
+    <rect x="24" y="24" width="145" height="26" rx="13" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+    <text x="96" y="41" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#E2E8F0" text-anchor="middle">Logitech MX Master 3S</text>
+  </svg>

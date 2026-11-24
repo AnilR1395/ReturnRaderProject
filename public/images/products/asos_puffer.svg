@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+    <defs>
+      <radialGradient id="asBg" cx="50%" cy="50%" r="60%">
+        <stop offset="0%" stop-color="#1E293B"/>
+        <stop offset="100%" stop-color="#020617"/>
+      </radialGradient>
+      <linearGradient id="pufferNylon" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#334155"/>
+        <stop offset="50%" stop-color="#0F172A"/>
+        <stop offset="100%" stop-color="#020617"/>
+      </linearGradient>
+      <filter id="pufDrop">
+        <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity="0.6"/>
+      </filter>
+    </defs>
+    <rect width="400" height="400" rx="24" fill="url(#asBg)"/>
+    <g transform="translate(85, 80)" filter="url(#pufDrop)">
+      <!-- Oversized Puffer Hood -->
+      <path d="M 60 70 C 50 15, 180 15, 170 70 Z" fill="#0F172A" stroke="#475569" stroke-width="2"/>
+      <!-- Puffer Baffles (Horizontal Down Pillows) -->
+      <!-- Baffle 1 -->
+      <path d="M 30 75 Q 115 65 200 75 L 210 115 Q 115 105 20 115 Z" fill="url(#pufferNylon)" stroke="#1E293B"/>
+      <!-- Baffle 2 -->
+      <path d="M 20 115 Q 115 105 210 115 L 215 155 Q 115 145 15 155 Z" fill="url(#pufferNylon)" stroke="#1E293B"/>
+      <!-- Baffle 3 -->
+      <path d="M 15 155 Q 115 145 215 155 L 215 195 Q 115 185 15 195 Z" fill="url(#pufferNylon)" stroke="#1E293B"/>
+      <!-- Baffle 4 -->
+      <path d="M 15 195 Q 115 185 215 195 L 210 240 Q 115 230 20 240 Z" fill="url(#pufferNylon)" stroke="#1E293B"/>
+      <!-- Sleeves with puffy elastic cuffs -->
+      <path d="M 25 80 L -10 170 Q 0 185 15 180 L 30 120 Z" fill="#1E293B"/>
+      <path d="M 205 80 L 240 170 Q 230 185 215 180 L 200 120 Z" fill="#1E293B"/>
+      <!-- Center Chunky Silver Zipper -->
+      <line x1="115" y1="70" x2="115" y2="235" stroke="#CBD5E1" stroke-width="3" stroke-dasharray="4 2"/>
+      <rect x="111" y="85" width="8" height="14" rx="2" fill="#E2E8F0"/>
+    </g>
+    <!-- Badge -->
+    <rect x="24" y="24" width="145" height="26" rx="13" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+    <text x="96" y="41" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#E2E8F0" text-anchor="middle">ASOS Oversized Puffer</text>
+  </svg>

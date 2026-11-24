@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="scBg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="ceraveTeal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+    <filter id="scDrop">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="24" fill="url(#scBg)"/>
+
+  <g transform="translate(100, 60)" filter="url(#scDrop)">
+    <!-- Tall Cleanser Bottle (Left) -->
+    <g transform="translate(15, 20)">
+      <!-- Pump Head -->
+      <path d="M 35 30 L 10 30 C 5 30 5 22 10 22 L 35 22 Z" fill="#0284C7"/>
+      <rect x="30" y="30" width="10" height="15" fill="#E2E8F0"/>
+      <!-- Bottle Cap -->
+      <rect x="22" y="45" width="26" height="15" rx="3" fill="#0284C7"/>
+
+      <!-- Bottle Body -->
+      <rect x="5" y="60" width="60" height="185" rx="14" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+      <!-- Teal Side Band -->
+      <rect x="5" y="60" width="12" height="185" rx="4" fill="url(#ceraveTeal)"/>
+      
+      <!-- Label Graphic -->
+      <text x="35" y="90" font-family="-apple-system, sans-serif" font-size="11" font-weight="900" fill="#0369A1" text-anchor="middle">CeraVe</text>
+      <text x="35" y="105" font-family="-apple-system, sans-serif" font-size="6" font-weight="700" fill="#64748B" text-anchor="middle">DEVELOPED WITH</text>
+      <text x="35" y="113" font-family="-apple-system, sans-serif" font-size="6" font-weight="700" fill="#64748B" text-anchor="middle">DERMATOLOGISTS</text>
+
+      <rect x="18" y="125" width="42" height="14" rx="3" fill="#0284C7"/>
+      <text x="39" y="135" font-family="monospace" font-size="6" font-weight="900" fill="#FFFFFF" text-anchor="middle">HYDRATING</text>
+      <text x="35" y="152" font-family="monospace" font-size="6" fill="#0F172A" text-anchor="middle">Facial Cleanser</text>
+      <text x="35" y="170" font-family="monospace" font-size="6" fill="#10B981" font-weight="700" text-anchor="middle">3 Essential</text>
+      <text x="35" y="178" font-family="monospace" font-size="6" fill="#10B981" font-weight="700" text-anchor="middle">Ceramides</text>
+      <text x="35" y="225" font-family="monospace" font-size="7" font-weight="700" fill="#64748B" text-anchor="middle">473 ml</text>
+    </g>
+
+    <!-- Shorter Lotion Bottle (Right) -->
+    <g transform="translate(105, 55)">
+      <!-- Pump Head -->
+      <path d="M 35 30 L 10 30 C 5 30 5 22 10 22 L 35 22 Z" fill="#0284C7"/>
+      <rect x="30" y="30" width="10" height="15" fill="#E2E8F0"/>
+      <rect x="22" y="45" width="26" height="15" rx="3" fill="#0284C7"/>
+
+      <!-- Bottle Body -->
+      <rect x="5" y="60" width="65" height="150" rx="14" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+      <rect x="5" y="60" width="12" height="150" rx="4" fill="#0284C7"/>
+
+      <!-- Label -->
+      <text x="38" y="88" font-family="-apple-system, sans-serif" font-size="11" font-weight="900" fill="#0369A1" text-anchor="middle">CeraVe</text>
+      <rect x="20" y="105" width="45" height="14" rx="3" fill="#0369A1"/>
+      <text x="42" y="115" font-family="monospace" font-size="6" font-weight="900" fill="#FFFFFF" text-anchor="middle">MOISTURIZING</text>
+      <text x="38" y="132" font-family="monospace" font-size="6" fill="#0F172A" text-anchor="middle">Daily Lotion</text>
+      <text x="38" y="150" font-family="monospace" font-size="6" fill="#0284C7" text-anchor="middle">Hyaluronic Acid</text>
+      <text x="38" y="190" font-family="monospace" font-size="7" font-weight="700" fill="#64748B" text-anchor="middle">355 ml</text>
+    </g>
+  </g>
+
+  <!-- Badge -->
+  <rect x="24" y="24" width="210" height="26" rx="13" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  <text x="129" y="41" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#E2E8F0" text-anchor="middle">CeraVe Daily Cleanser &amp; Lotion</text>
+</svg>

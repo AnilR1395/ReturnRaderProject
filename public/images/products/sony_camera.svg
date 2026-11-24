@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+    <defs>
+      <radialGradient id="camBg" cx="50%" cy="50%" r="60%">
+        <stop offset="0%" stop-color="#1E293B"/>
+        <stop offset="100%" stop-color="#090D16"/>
+      </radialGradient>
+      <linearGradient id="lensGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#0284C7"/>
+        <stop offset="50%" stop-color="#0F172A"/>
+        <stop offset="100%" stop-color="#4F46E5"/>
+      </linearGradient>
+      <filter id="camDrop">
+        <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000" flood-opacity="0.7"/>
+      </filter>
+    </defs>
+    <rect width="400" height="400" rx="24" fill="url(#camBg)"/>
+    <!-- Camera Body -->
+    <g transform="translate(60, 110)" filter="url(#camDrop)">
+      <!-- Main body block -->
+      <path d="M 20 60 L 90 60 L 105 35 L 175 35 L 190 60 L 260 60 C 270 60, 275 68, 275 78 L 275 190 C 275 200, 268 208, 256 208 L 24 208 C 12 208, 5 200, 5 190 L 5 78 C 5 68, 10 60, 20 60 Z" fill="#18181B" stroke="#27272A" stroke-width="2"/>
+      <!-- Right handgrip bump -->
+      <path d="M 5 78 C 5 68, -8 75, -8 95 L -8 185 C -8 205, 5 208, 24 208 Z" fill="#09090B"/>
+      <!-- Viewfinder prism peak -->
+      <polygon points="110,35 170,35 158,12 122,12" fill="#27272A"/>
+      <!-- Sony branding & Alpha red emblem -->
+      <text x="140" y="27" font-family="-apple-system, sans-serif" font-size="9" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">SONY</text>
+      <path d="M 45 80 L 52 95 L 48 95 L 40 80 Z" fill="#EF4444"/>
+      <!-- Dials on top plate -->
+      <rect x="210" y="48" width="28" height="12" rx="3" fill="#3F3F46"/>
+      <rect x="245" y="52" width="20" height="8" rx="2" fill="#52525B"/>
+      <circle cx="25" cy="52" r="7" fill="#EF4444" stroke="#7F1D1D" stroke-width="1.5"/>
+      <!-- Massive Lens Mount & Front Element -->
+      <circle cx="140" cy="135" r="70" fill="#27272A" stroke="#52525B" stroke-width="4"/>
+      <circle cx="140" cy="135" r="58" fill="#18181B" stroke="#E11D48" stroke-width="1.5"/>
+      <circle cx="140" cy="135" r="48" fill="url(#lensGlass)"/>
+      <ellipse cx="125" cy="120" rx="22" ry="14" fill="#FFFFFF" opacity="0.25" transform="rotate(-30, 125, 120)"/>
+      <ellipse cx="155" cy="150" rx="12" ry="8" fill="#38BDF8" opacity="0.35"/>
+      <!-- Sensor Gold Pins indicator -->
+      <circle cx="140" cy="135" r="10" fill="#F59E0B" opacity="0.4"/>
+    </g>
+    <!-- Badge -->
+    <rect x="24" y="24" width="135" height="26" rx="13" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+    <text x="91" y="41" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#E2E8F0" text-anchor="middle">Sony Alpha a7 IV</text>
+  </svg>

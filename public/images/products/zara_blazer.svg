@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+    <defs>
+      <radialGradient id="bzBg" cx="50%" cy="50%" r="60%">
+        <stop offset="0%" stop-color="#1E293B"/>
+        <stop offset="100%" stop-color="#0F172A"/>
+      </radialGradient>
+      <linearGradient id="fabricNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1E293B"/>
+        <stop offset="50%" stop-color="#0F172A"/>
+        <stop offset="100%" stop-color="#020617"/>
+      </linearGradient>
+      <filter id="bzDrop">
+        <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity="0.6"/>
+      </filter>
+    </defs>
+    <rect width="400" height="400" rx="24" fill="url(#bzBg)"/>
+    <!-- Hanger Hook -->
+    <path d="M 200 90 C 200 70, 215 65, 215 55 C 215 45, 205 40, 195 45 C 185 50, 185 60, 185 60" fill="none" stroke="#D97706" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 140 100 L 200 85 L 260 100" fill="none" stroke="#78350F" stroke-width="8" stroke-linecap="round"/>
+    <!-- Tailored Blazer Jacket -->
+    <g transform="translate(80, 95)" filter="url(#bzDrop)">
+      <!-- Shoulders & Torso -->
+      <path d="M 30 20 L 120 5 L 210 20 L 235 150 L 215 250 L 25 250 L 5 150 Z" fill="url(#fabricNavy)" stroke="#334155" stroke-width="1"/>
+      <!-- Inner crisp white shirt & tie -->
+      <polygon points="90,10 150,10 120,95" fill="#F8FAFC"/>
+      <polygon points="115,35 125,35 128,110 120,125 112,110" fill="#991B1B"/>
+      <!-- Left Lapel -->
+      <path d="M 75 12 L 120 135 L 75 80 Z" fill="#334155" stroke="#1E293B" stroke-width="1.5"/>
+      <!-- Right Lapel (overlapping) -->
+      <path d="M 165 12 L 120 145 L 165 80 Z" fill="#1E293B" stroke="#0F172A" stroke-width="1.5"/>
+      <!-- Chest Pocket with Silk Square -->
+      <rect x="55" y="95" width="32" height="4" fill="#334155"/>
+      <polygon points="65,95 72,82 78,95" fill="#FFFFFF"/>
+      <!-- Buttons -->
+      <circle cx="120" cy="165" r="5" fill="#0F172A" stroke="#475569" stroke-width="1.5"/>
+      <circle cx="120" cy="195" r="5" fill="#0F172A" stroke="#475569" stroke-width="1.5"/>
+      <!-- Side Flap Pockets -->
+      <rect x="35" y="195" width="45" height="8" rx="2" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <rect x="160" y="195" width="45" height="8" rx="2" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    </g>
+    <!-- Badge -->
+    <rect x="24" y="24" width="135" height="26" rx="13" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+    <text x="91" y="41" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#E2E8F0" text-anchor="middle">Zara Wool Blazer</text>
+  </svg>

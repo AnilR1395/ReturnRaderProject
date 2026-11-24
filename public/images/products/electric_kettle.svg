@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="ktBg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="silverSteel" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CBD5E1"/>
+      <stop offset="35%" stop-color="#F8FAFC"/>
+      <stop offset="70%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#64748B"/>
+    </linearGradient>
+    <linearGradient id="glowSteam" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="ktShadow">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="24" fill="url(#ktBg)"/>
+  
+  <!-- Steam clouds -->
+  <path d="M 120 70 Q 110 50 125 35 Q 140 20 130 10" fill="none" stroke="url(#glowSteam)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 135 65 Q 145 45 135 30 Q 125 15 140 5" fill="none" stroke="url(#glowSteam)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Kettle Group -->
+  <g transform="translate(100, 85)" filter="url(#ktShadow)">
+    <!-- Base Plate -->
+    <ellipse cx="100" cy="235" rx="80" ry="16" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    <ellipse cx="100" cy="230" rx="74" ry="12" fill="#1E293B"/>
+    
+    <!-- Power LED Light -->
+    <circle cx="100" cy="232" r="3.5" fill="#EF4444"/>
+
+    <!-- Kettle Main Body -->
+    <path d="M 45 220 C 40 160 55 100 70 80 L 130 80 C 145 100 160 160 155 220 Z" fill="url(#silverSteel)" stroke="#475569" stroke-width="1.5"/>
+
+    <!-- Water Level Gauge Window -->
+    <rect x="92" y="110" width="16" height="85" rx="8" fill="#0F172A" stroke="#475569" stroke-width="1.5"/>
+    <rect x="95" y="135" width="10" height="56" rx="5" fill="#0284C7" fill-opacity="0.8"/>
+    <line x1="94" y1="130" x2="106" y2="130" stroke="#94A3B8" stroke-width="1"/>
+    <line x1="94" y1="150" x2="106" y2="150" stroke="#94A3B8" stroke-width="1"/>
+    <line x1="94" y1="170" x2="106" y2="170" stroke="#94A3B8" stroke-width="1"/>
+    <text x="100" y="125" font-family="monospace" font-size="7" font-weight="900" fill="#E2E8F0" text-anchor="middle">1.7L</text>
+
+    <!-- Spout -->
+    <path d="M 50 100 L 20 85 L 30 115 L 47 125 Z" fill="url(#silverSteel)" stroke="#475569" stroke-width="1.5"/>
+
+    <!-- Lid & Handle Knob -->
+    <ellipse cx="100" cy="80" rx="32" ry="10" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    <rect x="92" y="65" width="16" height="12" rx="4" fill="#334155"/>
+
+    <!-- Ergonomic Heat-Resistant Handle -->
+    <path d="M 145 95 C 190 100 195 200 150 210 L 142 195 C 175 185 170 120 138 110 Z" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    <!-- Switch on handle top -->
+    <rect x="150" y="90" width="14" height="8" rx="2" fill="#EF4444"/>
+  </g>
+
+  <!-- Product Badge -->
+  <rect x="24" y="24" width="180" height="26" rx="13" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  <text x="114" y="41" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#E2E8F0" text-anchor="middle">Morphy Richards Kettle 1.7L</text>
+</svg>

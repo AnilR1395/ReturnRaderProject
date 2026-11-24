@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="swBg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="bandColor" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <filter id="swDrop">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="24" fill="url(#swBg)"/>
+
+  <g transform="translate(140, 50)" filter="url(#swDrop)">
+    <!-- Silicone Straps Top & Bottom -->
+    <rect x="25" y="10" width="70" height="70" rx="8" fill="url(#bandColor)"/>
+    <rect x="25" y="210" width="70" height="85" rx="8" fill="url(#bandColor)"/>
+
+    <!-- Strap Holes & Buckle pin -->
+    <rect x="58" y="230" width="4" height="8" rx="2" fill="#0F172A"/>
+    <rect x="58" y="250" width="4" height="8" rx="2" fill="#0F172A"/>
+    <rect x="58" y="270" width="4" height="8" rx="2" fill="#0F172A"/>
+
+    <!-- Watch Chassis (Curved Square Apple Watch Style) -->
+    <rect x="10" y="60" width="100" height="125" rx="28" fill="#020617" stroke="#475569" stroke-width="2.5"/>
+
+    <!-- Digital Crown & Side Button -->
+    <rect x="110" y="80" width="6" height="24" rx="3" fill="#94A3B8"/>
+    <rect x="110" y="115" width="4" height="26" rx="2" fill="#64748B"/>
+
+    <!-- OLED Retina Screen Glass -->
+    <rect x="16" y="66" width="88" height="113" rx="22" fill="#000000"/>
+
+    <!-- Activity Rings (Red, Green, Blue) -->
+    <circle cx="60" cy="115" r="32" fill="none" stroke="#1E293B" stroke-width="4.5"/>
+    <path d="M 60 83 A 32 32 0 1 1 34 134" fill="none" stroke="#FA5252" stroke-width="4.5" stroke-linecap="round"/>
+
+    <circle cx="60" cy="115" r="24" fill="none" stroke="#1E293B" stroke-width="4.5"/>
+    <path d="M 60 91 A 24 24 0 1 1 42 131" fill="none" stroke="#51CF66" stroke-width="4.5" stroke-linecap="round"/>
+
+    <circle cx="60" cy="115" r="16" fill="none" stroke="#1E293B" stroke-width="4.5"/>
+    <path d="M 60 99 A 16 16 0 1 1 50 128" fill="none" stroke="#339AF0" stroke-width="4.5" stroke-linecap="round"/>
+
+    <!-- Time Digital Display -->
+    <text x="60" y="166" font-family="-apple-system, sans-serif" font-size="12" font-weight="900" fill="#FFFFFF" text-anchor="middle">10:42 AM</text>
+    <text x="60" y="78" font-family="monospace" font-size="8" font-weight="700" fill="#F59E0B" text-anchor="middle">❤️ 72 BPM</text>
+  </g>
+
+  <!-- Badge -->
+  <rect x="24" y="24" width="180" height="26" rx="13" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  <text x="114" y="41" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#E2E8F0" text-anchor="middle">Apple Watch Series 10</text>
+</svg>

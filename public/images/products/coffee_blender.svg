@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="blBg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="blenderBase" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="40%" stop-color="#94A3B8"/>
+      <stop offset="70%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="smoothieGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="60%" stop-color="#FB7185"/>
+      <stop offset="100%" stop-color="#BE123C"/>
+    </linearGradient>
+    <filter id="blDrop">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="24" fill="url(#blBg)"/>
+
+  <g transform="translate(130, 60)" filter="url(#blDrop)">
+    <!-- Base Motor Body (NutriBullet Style) -->
+    <path d="M 20 280 C 15 230 15 190 25 160 L 115 160 C 125 190 125 230 120 280 Z" fill="url(#blenderBase)" stroke="#334155" stroke-width="2"/>
+    <ellipse cx="70" cy="280" rx="50" ry="12" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    
+    <!-- Metallic Ring Collar -->
+    <rect x="23" y="152" width="94" height="12" rx="3" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1"/>
+
+    <!-- NutriBullet Emblem & Power Status -->
+    <circle cx="70" cy="210" r="14" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+    <text x="70" y="214" font-family="monospace" font-size="11" font-weight="900" fill="#38BDF8" text-anchor="middle">900W</text>
+    <text x="70" y="245" font-family="-apple-system, sans-serif" font-size="8" font-weight="900" fill="#CBD5E1" text-anchor="middle" letter-spacing="1">NUTRIBULLET PRO</text>
+
+    <!-- Transparent Tritan Cup with Smoothie -->
+    <path d="M 32 152 L 28 35 C 28 25 112 25 112 35 L 108 152 Z" fill="#FFFFFF" fill-opacity="0.15" stroke="#94A3B8" stroke-width="1.5"/>
+
+    <!-- Inside Smoothie Liquid -->
+    <path d="M 33 150 L 30 55 C 45 62 65 50 85 58 C 95 62 105 52 107 55 L 107 150 Z" fill="url(#smoothieGradient)" fill-opacity="0.9"/>
+    
+    <!-- Measurement lines on cup -->
+    <line x1="38" y1="70" x2="52" y2="70" stroke="#FFFFFF" stroke-opacity="0.6" stroke-width="1.5"/>
+    <line x1="39" y1="90" x2="48" y2="90" stroke="#FFFFFF" stroke-opacity="0.6" stroke-width="1.5"/>
+    <line x1="40" y1="110" x2="54" y2="110" stroke="#FFFFFF" stroke-opacity="0.6" stroke-width="1.5"/>
+    <text x="60" y="73" font-family="monospace" font-size="7" fill="#FFFFFF" font-weight="700">700ml</text>
+    <text x="62" y="113" font-family="monospace" font-size="7" fill="#FFFFFF" font-weight="700">Max</text>
+
+    <!-- Top Screw Lid / Extractor Base -->
+    <rect x="25" y="22" width="90" height="14" rx="4" fill="#0F172A" stroke="#475569" stroke-width="1.5"/>
+  </g>
+
+  <!-- Badge -->
+  <rect x="24" y="24" width="180" height="26" rx="13" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  <text x="114" y="41" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#E2E8F0" text-anchor="middle">NutriBullet 900W Blender</text>
+</svg>

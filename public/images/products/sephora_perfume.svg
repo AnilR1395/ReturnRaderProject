@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+    <defs>
+      <radialGradient id="spBg" cx="50%" cy="50%" r="60%">
+        <stop offset="0%" stop-color="#2D1525"/>
+        <stop offset="100%" stop-color="#0A0307"/>
+      </radialGradient>
+      <linearGradient id="amberPerfume" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FDE68A"/>
+        <stop offset="50%" stop-color="#F59E0B"/>
+        <stop offset="100%" stop-color="#D97706"/>
+      </linearGradient>
+      <filter id="perfDrop">
+        <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity="0.65"/>
+      </filter>
+    </defs>
+    <rect width="400" height="400" rx="24" fill="url(#spBg)"/>
+    <!-- Luxury Perfume Bottle -->
+    <g transform="translate(130, 80)" filter="url(#perfDrop)">
+      <!-- Gold Spray Cap -->
+      <rect x="52" y="15" width="36" height="40" rx="4" fill="#D97706" stroke="#FDE68A" stroke-width="2"/>
+      <rect x="62" y="5" width="16" height="10" fill="#B45309"/>
+      <!-- Glass Shoulder -->
+      <polygon points="30,85 110,85 125,120 15,120" fill="#FFFFFF" opacity="0.3"/>
+      <!-- Heavy Faceted Glass Bottle -->
+      <rect x="15" y="110" width="110" height="145" rx="14" fill="#FFFFFF" opacity="0.2" stroke="#FFFFFF" stroke-width="2"/>
+      <!-- Fragrance Liquid Inside -->
+      <rect x="25" y="140" width="90" height="105" rx="8" fill="url(#amberPerfume)" opacity="0.85"/>
+      <!-- Glass Straw Dip Tube -->
+      <line x1="70" y1="55" x2="70" y2="235" stroke="#FFFFFF" stroke-width="3" opacity="0.5"/>
+      <!-- Label Plaque -->
+      <rect x="35" y="155" width="70" height="50" rx="4" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+      <text x="70" y="175" font-family="serif" font-size="10" font-weight="900" fill="#000000" text-anchor="middle">EAU DE</text>
+      <text x="70" y="190" font-family="serif" font-size="11" font-weight="900" fill="#991B1B" text-anchor="middle">PARFUM</text>
+      <text x="70" y="200" font-family="-apple-system, sans-serif" font-size="6" fill="#6B7280" text-anchor="middle">SEPHORA LUXE</text>
+    </g>
+    <!-- Badge -->
+    <rect x="24" y="24" width="145" height="26" rx="13" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+    <text x="96" y="41" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#E2E8F0" text-anchor="middle">Sephora Fragrance</text>
+  </svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+    <defs>
+      <radialGradient id="akBg" cx="50%" cy="50%" r="60%">
+        <stop offset="0%" stop-color="#1E293B"/>
+        <stop offset="100%" stop-color="#020617"/>
+      </radialGradient>
+      <linearGradient id="bodyDark" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#334155"/>
+        <stop offset="50%" stop-color="#0F172A"/>
+        <stop offset="100%" stop-color="#020617"/>
+      </linearGradient>
+      <filter id="bankDrop">
+        <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity="0.6"/>
+      </filter>
+    </defs>
+    <rect width="400" height="400" rx="24" fill="url(#akBg)"/>
+    <!-- Anker Tower Power Bank -->
+    <g transform="translate(130, 80)" filter="url(#bankDrop)">
+      <!-- Main Upright Chassis -->
+      <rect x="10" y="10" width="120" height="230" rx="18" fill="url(#bodyDark)" stroke="#475569" stroke-width="2"/>
+      <!-- Metallic Ribs Pattern -->
+      <line x1="15" y1="200" x2="125" y2="200" stroke="#1E293B" stroke-width="2"/>
+      <line x1="15" y1="210" x2="125" y2="210" stroke="#1E293B" stroke-width="2"/>
+      <line x1="15" y1="220" x2="125" y2="220" stroke="#1E293B" stroke-width="2"/>
+      <!-- Glossy Smart TFT Color Screen -->
+      <rect x="25" y="25" width="90" height="95" rx="10" fill="#020617" stroke="#1E293B" stroke-width="1.5"/>
+      <!-- Battery Status Digital Graphic -->
+      <circle cx="70" cy="65" r="28" fill="none" stroke="#1E293B" stroke-width="5"/>
+      <path d="M 70 37 A 28 28 0 1 1 45 80" fill="none" stroke="#10B981" stroke-width="5" stroke-linecap="round"/>
+      <text x="70" y="69" font-family="monospace" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle">88%</text>
+      <!-- Watts indicator -->
+      <text x="70" y="102" font-family="monospace" font-size="9" font-weight="700" fill="#38BDF8" text-anchor="middle">⚡ 134.5W</text>
+      <!-- USB Ports below screen -->
+      <rect x="35" y="135" width="30" height="8" rx="3" fill="#020617" stroke="#64748B" stroke-width="1"/>
+      <text x="50" y="142" font-size="5" fill="#38BDF8" font-family="monospace" text-anchor="middle">C1 140W</text>
+      <rect x="75" y="135" width="30" height="8" rx="3" fill="#020617" stroke="#64748B" stroke-width="1"/>
+      <text x="90" y="142" font-size="5" fill="#38BDF8" font-family="monospace" text-anchor="middle">C2 140W</text>
+      <rect x="45" y="155" width="50" height="10" rx="3" fill="#020617" stroke="#F59E0B" stroke-width="1.5"/>
+      <text x="70" y="163" font-size="6" fill="#F59E0B" font-family="monospace" text-anchor="middle">USB-A 22.5W</text>
+      <!-- Gold Branding -->
+      <text x="70" y="185" font-family="-apple-system, sans-serif" font-size="9" font-weight="900" fill="#94A3B8" text-anchor="middle" letter-spacing="1">ANKER PRIME</text>
+    </g>
+    <!-- Badge -->
+    <rect x="24" y="24" width="145" height="26" rx="13" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+    <text x="96" y="41" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#E2E8F0" text-anchor="middle">Anker Prime 20,000mAh</text>
+  </svg>

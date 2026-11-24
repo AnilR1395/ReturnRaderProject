@@ -1,0 +1,24 @@
+{
+  "name": "returnradar",
+  "version": "2.0.0",
+  "description": "ReturnRadar: Purchase Return Deadline & Refund Tracker with Flipkart Storefront Integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node server/testRoutes.js && node server/testStoreRoutes.js",
+    "test:radar": "node server/testRoutes.js",
+    "test:store": "node server/testStoreRoutes.js",
+    "seed": "node -e \"const { getDb } = require('./server/db'); const { resetDatabase } = require('./server/seedData'); const { seedStoreDatabase } = require('./server/seedStoreData'); const db = getDb(); resetDatabase(db); seedStoreDatabase(db); console.log('Database re-seeded!');\""
+  },
+  "keywords": [
+    "return-tracker",
+    "refund-tracker",
+    "deadline-monitor",
+    "ecommerce-returns",
+    "shopping",
+    "receipts",
+    "disputes"
+  ],
+  "author": "ReturnRadar Team",
+  "license": "MIT"
+}

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+    <defs>
+      <radialGradient id="dlBg" cx="50%" cy="50%" r="60%">
+        <stop offset="0%" stop-color="#1E293B"/>
+        <stop offset="100%" stop-color="#020617"/>
+      </radialGradient>
+      <linearGradient id="screenDisplay" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#0284C7"/>
+        <stop offset="50%" stop-color="#4F46E5"/>
+        <stop offset="100%" stop-color="#EC4899"/>
+      </linearGradient>
+      <filter id="monDrop">
+        <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity="0.6"/>
+      </filter>
+    </defs>
+    <rect width="400" height="400" rx="24" fill="url(#dlBg)"/>
+    <!-- 4K Monitor -->
+    <g transform="translate(60, 90)" filter="url(#monDrop)">
+      <!-- Monitor Bezel Frame -->
+      <rect x="5" y="10" width="270" height="170" rx="6" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <!-- Gorgeous 4K IPS Panel Screen -->
+      <rect x="10" y="15" width="260" height="160" rx="3" fill="url(#screenDisplay)"/>
+      <path d="M 10 140 Q 80 80 180 120 T 270 90 L 270 175 L 10 175 Z" fill="#0F172A" opacity="0.3"/>
+      <!-- Dell Logo Badge -->
+      <circle cx="140" cy="172" r="3.5" fill="#CBD5E1"/>
+      <!-- Ergonomic Articulating Stand -->
+      <rect x="133" y="180" width="14" height="60" fill="#94A3B8"/>
+      <!-- Aluminum Base Plate -->
+      <polygon points="90,240 190,240 180,250 100,250" fill="#CBD5E1" stroke="#64748B" stroke-width="1"/>
+    </g>
+    <!-- Badge -->
+    <rect x="24" y="24" width="145" height="26" rx="13" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+    <text x="96" y="41" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#E2E8F0" text-anchor="middle">Dell UltraSharp 27" 4K</text>
+  </svg>

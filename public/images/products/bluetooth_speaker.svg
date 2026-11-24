@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="spBg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="jblTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="50%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <filter id="spDrop">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="24" fill="url(#spBg)"/>
+
+  <g transform="translate(110, 80)" filter="url(#spDrop)">
+    <!-- Passive Radiators Top & Bottom Caps -->
+    <ellipse cx="90" cy="40" rx="60" ry="16" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    <ellipse cx="90" cy="40" rx="46" ry="12" fill="#1E293B"/>
+    <text x="90" y="44" font-family="-apple-system, sans-serif" font-size="9" font-weight="900" fill="#F97316" text-anchor="middle">JBL</text>
+
+    <!-- Cylindrical Mesh Body -->
+    <rect x="30" y="40" width="120" height="170" rx="20" fill="url(#jblTeal)" stroke="#047857" stroke-width="2"/>
+
+    <!-- Rugged Silicone End Caps -->
+    <rect x="28" y="38" width="124" height="16" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1.5"/>
+    <rect x="28" y="196" width="124" height="16" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1.5"/>
+
+    <!-- Big Iconic JBL Bold Logo Center -->
+    <rect x="65" y="105" width="50" height="40" rx="8" fill="#F97316" stroke="#C2410C" stroke-width="2"/>
+    <text x="90" y="132" font-family="-apple-system, sans-serif" font-size="20" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="-1">JBL</text>
+
+    <!-- Control Buttons (+ - Play Bluetooth) -->
+    <text x="90" y="80" font-family="monospace" font-size="14" font-weight="900" fill="#FFFFFF" text-anchor="middle">+ &nbsp; ▶ &nbsp; -</text>
+    <circle cx="90" cy="175" r="8" fill="#0F172A" stroke="#38BDF8" stroke-width="1.5"/>
+    <text x="90" y="179" font-family="monospace" font-size="9" font-weight="900" fill="#38BDF8" text-anchor="middle">⚡</text>
+
+    <!-- Bottom Radiator -->
+    <ellipse cx="90" cy="210" rx="60" ry="16" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+  </g>
+
+  <!-- Badge -->
+  <rect x="24" y="24" width="200" height="26" rx="13" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  <text x="124" y="41" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#E2E8F0" text-anchor="middle">JBL Flip 6 Waterproof Speaker</text>
+</svg>
